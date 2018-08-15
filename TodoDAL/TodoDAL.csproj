@@ -5,9 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="TodoDAL">
-      <HintPath>..\TodoDAL\bin\Debug\netstandard2.0\TodoDAL.dll</HintPath>
-    </Reference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0-preview1-final" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="UnitOfWorkRepository">
       <HintPath>..\UnitOfWorkRepository\bin\Debug\netstandard2.0\UnitOfWorkRepository.dll</HintPath>
     </Reference>
